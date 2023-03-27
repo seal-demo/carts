@@ -4,7 +4,7 @@ metadata:
   name: carts
   annotations:
     jira/project-key: CARTS
-    github.com/project-slug: 'pengjiang80/carts'
+    github.com/project-slug: 'seal-demo/carts'
     backstage.io/kubernetes-id: carts
     fossa.io/project-name: carts
 spec:
