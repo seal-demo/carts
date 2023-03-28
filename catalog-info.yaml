@@ -13,5 +13,10 @@ spec:
   lifecycle: experimental
   owner: team-a
   system: socks-shop
+  dependsOn:
+    - component: catalogue
   providesApis:
     - carts-api
+  consumesApis:
+    - catalogue-api
+  
