@@ -14,6 +14,6 @@ spec:
   owner: team-a
   system: socks-shop
   dependsOn:
-    - service: catalogue
+    - component: catalogue
   providesApis:
     - carts-api
