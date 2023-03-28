@@ -14,7 +14,7 @@ spec:
   owner: team-a
   system: socks-shop
   dependsOn:
-    - component: catalogue
+    - component:default/catalogue
   providesApis:
     - carts-api
   consumesApis:
