@@ -13,3 +13,7 @@ spec:
   lifecycle: experimental
   owner: team-a
   system: socks-shop
+  dependsOn:
+    - service:catalogue
+  providesApis:
+    - carts-api
