@@ -2,6 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: carts
+  links:
+    - url: https://microservices-demo.github.io/api/index?url=https://raw.githubusercontent.com/microservices-demo/carts/master/api-spec/cart.json
+      title: Carts introduction
+      icon: dashboard
   annotations:
     jira/project-key: CARTS
     github.com/project-slug: 'seal-demo/carts'
