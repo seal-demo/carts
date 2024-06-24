@@ -13,7 +13,7 @@ if [[ -z "$GROUP" ]] ; then
 fi
 
 if [[ -z "$COMMIT" ]] ; then
-    echo "Cannot find COMMIT env var"
+    echo "Cannot find COMMIT env var, please check!"
     exit 1
 fi
 
