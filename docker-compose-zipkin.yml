@@ -35,3 +35,4 @@ services:
       - reschedule=on-node-failure
     ports:
       - "9411:9411"
+      - "8080:8080"
